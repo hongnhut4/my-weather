@@ -1,0 +1,17 @@
+.nav-link {
+  position: relative;
+  transition: all ease-in 0.3s;
+  &::after {
+    width: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    content: '';
+    height: 2.75px;
+    background-color: #fb923c;
+    bottom: -4px;
+  }
+  &.active::after {
+    width: 100%;
+  }
+}
