@@ -7,7 +7,6 @@ import {
 } from '@/features/weather/weatherSlice'
 import CurrentWeather from '@/components/WeatherCard'
 import Forecast from '@/components/Forecast'
-import '@/pages/Home/index.scss'
 
 const Home = () => {
   const dispatch = useAppDispatch()

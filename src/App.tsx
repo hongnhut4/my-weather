@@ -1,9 +1,9 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import { lazy, Suspense } from 'react'
 
-import '@/App.css'
 import Header from '@/components/Header/index'
 import SideBar from '@/components/SideBar'
+import '@/App.css'
 
 const Home = lazy(() => import('@/pages/Home'))
 const SearchCountryWeather = lazy(() => import('@/pages/SearchCountryWeather'))
